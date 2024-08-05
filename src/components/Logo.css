@@ -1,0 +1,13 @@
+.logo {
+  display: block;
+  position: absolute;
+  top: 80px; /* Adjust based on the height of your navbar */
+  left: 40px; /* Adjust based on your design */
+  z-index: 2; /* Ensure the logo is above other content */
+}
+
+.logo img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+}

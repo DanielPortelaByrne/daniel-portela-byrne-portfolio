@@ -1,38 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column; /* Stack the navbar and content vertically */
+  height: 100vh; /* Full viewport height */
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-image: url("assets/background.png");
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Apply Poppins font globally */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1e1e;
+  color: #fee192; /* Optional: change text color for better contrast */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NavBar {
+  flex: 0 0 auto; /* Prevent the navbar from stretching */
+  position: relative; /* Ensure it stays at the top */
+  z-index: 1; /* Place the navbar above other content */
+}
+
+.Content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex: 1 1 auto; /* Allow the content area to grow and fill available space */
+  padding: 1rem; /* Optional padding */
+  font-family: "Poppins", sans-serif; /* Apply Poppins font globally */
+  /* background-color: rgba(
+    30,
+    30,
+    30,
+    0.8
+  ); Optional semi-transparent background for better readability */
+  color: #fff; /* Text color for content area */
+  z-index: 0; /* Place the content below the navbar */
+}
+
+#root {
+  height: 100%; /* Ensure the root div takes the full height */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
