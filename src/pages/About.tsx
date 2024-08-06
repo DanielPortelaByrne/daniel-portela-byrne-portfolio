@@ -11,6 +11,10 @@ const CVLink = styled.a`
   color: #fee192;
   text-decoration: none;
   font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const About: React.FC = () => {
@@ -32,10 +36,9 @@ const About: React.FC = () => {
       </p>
       <CVLink
         href="../assets/DanielPortelaByrneCV2024.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
+        download="DanielPortelaByrneCV2024.pdf"
       >
-        View My CV
+        Download My CV
       </CVLink>
     </Container>
   );

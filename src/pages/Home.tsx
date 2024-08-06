@@ -5,14 +5,41 @@ import styled from "@emotion/styled";
 import logo from "../assets/name_logo.png";
 import headshot from "../assets/headshot.png"; // Import the headshot image
 
-const Hero = styled.div`
-  text-align: center;
-  padding: 2rem;
+// Define keyframes for the rainbow animation
+const rainbowAnimation = `
+  @keyframes rainbow {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+  }
 `;
 
+// Define keyframes for the pulsing effect
+const pulseAnimation = `
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+`;
+
+// Create a styled component for the logo with animation
 const Logo = styled.img`
   width: 550px; /* Adjust size as needed */
   margin-bottom: 1rem;
+  transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+
+  /* Inject keyframes into the component */
+  ${rainbowAnimation}
+  ${pulseAnimation}
+
+  &:hover {
+    animation: rainbow 1s linear infinite, pulse 1s ease-in-out infinite;
+  }
+`;
+
+const Hero = styled.div`
+  text-align: center;
+  padding: 2rem;
 `;
 
 const Skills = styled.div`
