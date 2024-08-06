@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.47b04b69.css",
-    "main.js": "/static/js/main.78367cc5.js",
-    "static/media/headshot.png": "/static/media/headshot.d5e69252a5d18d4f16ec.png",
-    "static/media/party-populist-image.png": "/static/media/party-populist-image.1a9df5e2032c2651d7ca.png",
-    "static/media/background.png": "/static/media/background.23970015ae7d0324ce0d.png",
-    "static/media/planning-poker-image.png": "/static/media/planning-poker-image.ea7d025dcd7ba24725c8.png",
-    "static/media/name_logo.png": "/static/media/name_logo.cbe1c8de179e15e0df15.png",
-    "static/media/received.png": "/static/media/received.69de57e5a978920844e1.png",
-    "index.html": "/index.html",
-    "main.47b04b69.css.map": "/static/css/main.47b04b69.css.map",
-    "main.78367cc5.js.map": "/static/js/main.78367cc5.js.map"
+    "main.css": "/daniel-portela-byrne-portfolio/static/css/main.c88d31ab.css",
+    "main.js": "/daniel-portela-byrne-portfolio/static/js/main.767747b2.js",
+    "static/media/headshot.png": "/daniel-portela-byrne-portfolio/static/media/headshot.d5e69252a5d18d4f16ec.png",
+    "static/media/party-populist-image.png": "/daniel-portela-byrne-portfolio/static/media/party-populist-image.1a9df5e2032c2651d7ca.png",
+    "static/media/background.png": "/daniel-portela-byrne-portfolio/static/media/background.23970015ae7d0324ce0d.png",
+    "static/media/planning-poker-image.png": "/daniel-portela-byrne-portfolio/static/media/planning-poker-image.ea7d025dcd7ba24725c8.png",
+    "static/media/name_logo.png": "/daniel-portela-byrne-portfolio/static/media/name_logo.cbe1c8de179e15e0df15.png",
+    "static/media/received.png": "/daniel-portela-byrne-portfolio/static/media/received.69de57e5a978920844e1.png",
+    "index.html": "/daniel-portela-byrne-portfolio/index.html",
+    "main.c88d31ab.css.map": "/daniel-portela-byrne-portfolio/static/css/main.c88d31ab.css.map",
+    "main.767747b2.js.map": "/daniel-portela-byrne-portfolio/static/js/main.767747b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b04b69.css",
-    "static/js/main.78367cc5.js"
+    "static/css/main.c88d31ab.css",
+    "static/js/main.767747b2.js"
   ]
 }
