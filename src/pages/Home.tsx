@@ -33,7 +33,7 @@ const Skill = styled.div`
 // Create a styled component for the headshot image with fixed positioning
 const Headshot = styled.img`
   position: fixed;
-  left: 150px; /* Adjust the left position as needed */
+  left: 5%; /* Adjust the left position as needed */
   top: 50%;
   transform: translateY(-50%); /* Center vertically */
   width: 400px; /* Adjust size as needed */

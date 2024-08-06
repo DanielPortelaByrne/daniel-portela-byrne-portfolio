@@ -21,8 +21,8 @@ const About: React.FC = () => {
         I'm a Senior Associate Software Engineer with a passion for UI
         development. I studied computer science at UCD and have experience in
         production support and software engineering roles. My goal is to
-        transition into a UI developer role in London to live with my girlfriend
-        and pursue my passion for front-end development.
+        transition into a UI developer role in London to pursue my passion for
+        front-end development.
       </p>
       <p>
         In my spare time, I enjoy working on side projects like building mobile
