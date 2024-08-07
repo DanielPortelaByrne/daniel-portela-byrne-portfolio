@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daniel-portela-byrne-portfolio/static/css/main.c88d31ab.css",
-    "main.js": "/daniel-portela-byrne-portfolio/static/js/main.767747b2.js",
+    "main.js": "/daniel-portela-byrne-portfolio/static/js/main.dc840030.js",
     "static/media/headshot.png": "/daniel-portela-byrne-portfolio/static/media/headshot.d5e69252a5d18d4f16ec.png",
     "static/media/party-populist-image.png": "/daniel-portela-byrne-portfolio/static/media/party-populist-image.1a9df5e2032c2651d7ca.png",
     "static/media/background.png": "/daniel-portela-byrne-portfolio/static/media/background.23970015ae7d0324ce0d.png",
@@ -10,10 +10,10 @@
     "static/media/received.png": "/daniel-portela-byrne-portfolio/static/media/received.69de57e5a978920844e1.png",
     "index.html": "/daniel-portela-byrne-portfolio/index.html",
     "main.c88d31ab.css.map": "/daniel-portela-byrne-portfolio/static/css/main.c88d31ab.css.map",
-    "main.767747b2.js.map": "/daniel-portela-byrne-portfolio/static/js/main.767747b2.js.map"
+    "main.dc840030.js.map": "/daniel-portela-byrne-portfolio/static/js/main.dc840030.js.map"
   },
   "entrypoints": [
     "static/css/main.c88d31ab.css",
-    "static/js/main.767747b2.js"
+    "static/js/main.dc840030.js"
   ]
 }
