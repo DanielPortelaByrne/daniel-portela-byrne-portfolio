@@ -35,7 +35,7 @@ const About: React.FC = () => {
         appealing and user-friendly interfaces.
       </p>
       <CVLink
-        href="../assets/DanielPortelaByrneCV2024.pdf"
+        href="/DanielPortelaByrneCV2024.pdf"
         download="DanielPortelaByrneCV2024.pdf"
       >
         Download My CV
